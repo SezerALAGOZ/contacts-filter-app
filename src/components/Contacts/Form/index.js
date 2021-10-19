@@ -33,7 +33,7 @@ function Form({addContact, contacts}) {
                 <div>
                     <input 
                     type="text" 
-                    name="name" 
+                    name="fullName" 
                     placeholder="Fullname" 
                     value={form.fullName}
                     onChange={onInputChange}/>

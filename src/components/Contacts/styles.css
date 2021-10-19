@@ -1,0 +1,33 @@
+#container {
+    width: 400px;
+    background-color: rgb(119, 169, 189);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list {
+    margin: 15px 0;
+}
+
+.list li {
+    margin-bottom: 2px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list li:hover {
+    background-color:rgb(241, 247, 189);
+}
